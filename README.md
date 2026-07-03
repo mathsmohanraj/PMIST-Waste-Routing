@@ -26,6 +26,16 @@ Bash
 
 pip install osmnx networkx matplotlib
 
+Guide to Reproduce Results
+
+    Ensure all dataset files (A-n32-k5.vrp, etc.) are in the data/ folder.
+
+    Open Waste_Collection_Optimization.ipynb in Google Colab.
+
+    Go to 'Runtime' -> 'Run all' to execute all algorithms and generate the performance table.
+
+    The final visualization map will be saved as pmist_map.pdf.
+
 Data and Code Availability
 
 The datasets and source code provided in this repository are intended for academic research purposes. If you use this implementation in your own work, please cite this repository.
